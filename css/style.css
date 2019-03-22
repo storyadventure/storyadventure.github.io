@@ -1,9 +1,23 @@
+html {
+    zoom: 90%;
+}
+
+#scroll {
+    position: absolute;
+    overflow-x: hidden;
+    height: 200px;
+    width: 250px;
+    left: 100px;
+    top: 20%;
+
+}
+
 #googlepic {
     width: 200px;
     position: absolute;
     margin-left: 370px;
     z-index: 2;
-    margin-top:-180px;
+    margin-top:-200px;
 } 
 
 body {
@@ -26,8 +40,8 @@ body {
 }
 #divId ul {
     position: absolute;
-    margin-top: 400px;
-    margin-left: 220px;
+    margin-top: 500px;
+    margin-left: 200px;
 }
 #divId ul li{
     
@@ -143,11 +157,51 @@ div #leedeadbutton{
     margin:5px;
   
 }
-/* #divId #textconstructor{
+div #ryanbutton1 {
+    margin-left: 160px;
+}
+div #ryanbutton2 {
+    margin-left: 260px;
+}
+div #ryanbutton4 {
+    margin-left: 260px;
+}
+div #ryanbutton5 {
+    margin-left: 280px;
+}
+div #ryanbutton8 {
+    margin-left: 260px;
+}
+div #ryanbutton9 {
+    margin-left: 280px;
+}
+div #ryanbutton10 {
+    margin-left: 390px;
+}
+div #ryanbutton12 {
+    margin-left: 320px;
+}
+div #ryanbutton13 {
+    margin-left: 440px;
+}
+div #ryanbutton14{
+margin-left: 280px;
+}
+div #ryanbutton15 {
+    margin-left: 230px;
+}
+div #ryanbutton29 {
+    margin-left: 440px;
+}
+div #ryanbutton30 {
+    margin-left: 360px;
+}
+#divId #textconstructor{
     color: white;
     margin-left: 380px;
     margin-top: -200px;
-} */
+}
+
 #buttontree1{
     margin-left:800px;
     margin-top: 190px;
@@ -193,7 +247,7 @@ div #leedeadbutton{
 footer {
     display: inline-block;
     width: 960px;
-    margin-top: 30px;
+    margin-top: -2px;
     background-color: black;
     border-radius: 8px;
 }
@@ -368,10 +422,15 @@ h6 {
     width:100px;
     height:150px;
 }
+div #mainbuttons {
+    position: absolute;
+    margin-left: 235px;
+    margin-top: 400px;
+}
 
 #resetbutton{
-    position: absolute;
-    margin-left: 90px;
+    position: fixed;
+    margin-left: 50px;
     margin-top: 10px;
 }
 button {
